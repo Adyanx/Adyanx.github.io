@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="nb">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -8,16 +8,17 @@
     <meta name="keywords" content="HTML, CSS, JavaScript, UU, SEO, CMS, Kontakt oss,">
     <meta name="author" content="Adyan Ali">
     <link rel="stylesheet" type="text/css" href="https://necolas.github.io/normalize.css/8.0.1/normalize.css">
-    <script src="https://kit.fontawesome.com/2e65a58eb6.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/2e65a58eb6.js" crossorigin="anonymous"></script> <!-- https://fontawesome.com/ når du logger inn får du en egen kode som gjør det eneklere å sende over ikoner, du slipper load tiden til mappe filen når du gjør dette.-->
     <link rel="stylesheet" type="text/css" href="style.css">
-    <link rel="icon" type="image/png" href="bildebank/favicon-32x32.png"/>
+    <link rel="stylesheet" type="text/css" href="style.css">
+    <link rel="icon" type="image/png" href="bildebank/favicon-32x32.png">
     <title>Analyse</title>
 </head>
 <body class="color1">
     <div id="grid-container">
         <header>
             <a href="del2.html">
-            <img id="logo" src="bildebank/webultimatium-low-resolution-logo-color-on-transparent-background (1).webp" alt="Logo for nettsiden">
+            <img id="logo" src="bildebank/webultimatium-low-resolution-logo-color-on-transparent-background(1).webp" alt="Logo for nettsiden">
             </a>
             <nav class="navbar"> <!--Responsiv navbar kilde: https://www.youtube.com/watch?v=At4B7A4GOPg -->
                 <a href="#" class="toggle-button" aria-label="Nav knapp responsiv">
@@ -51,33 +52,109 @@
             <img src="bildebank/Skjermbilde.pnggg.png" alt="Bilde for Analyse Lighthouse before">
             <p>I dette bildet som blir vist er det ganske åpenbart at jeg har klart å følge performansen, Accessibility og best practices. Dette er altså lighthouse rapporten på hoved siden til nettstedet, og her kan du se at jeg har 100% på alt, med tanke på at jeg har tenkt på nettsidens rendering tid og bilde performansen. Her har jeg fra før av (før jeg brukte lighthouse) f.eks. gjort alle bildene mine til riktig format, altså WEBP derfor ser vi ikke et slikt problem i nettsiden. Men som du kan se så har jeg ett problem angående SEO det har jeg løst. Her så sto det at META deskripsjon manglet og jeg har deretter satt inn en Meta-deskripsjon i HEADER for å så få utført denne handlingen slik at jeg kan få 100% på alt. Som du kan se på bildet under. </p>
             <img src="bildebank/Bilde1.pngdadd.png" alt="Bilde analyse lighthouse after">
+           
             <h2>CMS nettsiden</h2>
             <p>Under ser du resultatet av CMS nettsiden ettersom det eneste jeg måtte endre var SEO på hovednettsiden, så var innholdsssidene helt like med tanke på lighthouse sine kriterier</p>
             <img src="bildebank/gg.PNG" alt="Bilde Lighthouse">
+            
             <h2>Analyse nettsiden</h2>
             <p>Under ser du resultatet av Analyse nettsiden ettersom det eneste jeg måtte endre var SEO på hovednettsiden, så var innholdsssidene helt like med tanke på lighthouse sine kriterier</p>
             <img src="bildebank/gggre.PNG" alt="Bilde Lighthouse1">
+            
             <h2>Kontakt oss nettsiden</h2>
-            <p>Under ser du resultatet av Kontakt oss nettsiden ettersom det eneste jeg måtte endre var SEO på hovednettsiden, så var innholdsssidene helt like med tanke på lighthouse sine kriterier</p>
+            <p>Under ser du resultatet av kontakt oss nettsiden. som du kan se er best practices på 83. grunnen til dette er google API. har lagt til et kart fra google som da svekker nettsiden sin best practise. dette er fiksed ved å gå i inkognito siden da prøver ikke api å komme seg inn, men i ikke inkognito kommer de inn og spør hele tiden derfor svekker det best practises.</p>
             <img src="bildebank/haha.PNG" alt="Bilde Lighthouse2">
+            
             <h2>Universell utforming og Søkemotoroptimalisering nettsiden</h2>
             <p>Under ser du resultatet av Universell utforming og Søkemotoroptimalisering nettsiden ettersom det eneste jeg måtte endre var SEO på hovednettsiden, så var innholdsssidene helt like med tanke på lighthouse sine kriterier</p>
             <img src="bildebank/asd.PNG" alt="Bilde Lighthouse3">
             <p>Siden jeg ikke hadde så mange problemer med lighthouse valge jeg å isteden for gå etter WAVE sin webaim. Her fokuserte -jeg KUN på contrast error og errors. Noe som det ikke er noe av. </p>
-            <img src="bildebank/fdfsfsd.PNG" alt="">
+            <img src="bildebank/fdfsfsd.PNG" alt="Webaim bilde">
             <p>Her ser du at jeg ikke har noen errors på nettsiden og heller ingen contrast errors. bildet over er altså fra hovednettsiden og under kommer resten.</p>
-            <h2>UU VS SEO</h2>
+           
+            <h2>UU VS SEO nettsiden</h2>
+            <p>Her ser du at jeg ikke har noen errors på nettsiden og heller ingen contrast errors.</p>
             <img src="bildebank/webaimm.PNG" alt="Webaim for analyse1">
+            
+            <h2>CMS nettsiden</h2>
+            <p>Her ser du at jeg ikke har noen errors på nettsiden og heller ingen contrast errors.</p>
             <img src="bildebank/webaimm1.PNG" alt="Webaim for analyse2">
+           
+            <h2>Analyse nettsiden</h2>
+            <p>Her ser du at jeg ikke har noen errors på nettsiden og heller ingen contrast errors.</p>
             <img src="bildebank/webaimm2.PNG" alt="Webaim for analyse3">
+           
+            <h2>Kontakt oss nettsiden</h2>
+            <p>Her ser du at jeg ikke har noen errors på nettsiden og heller ingen contrast errors.</p>
+            <img src="bildebank/webaimm3.PNG" alt="Webaim for analyse 4">
+            <img src="bildebank/83341721-ed8f7100-a2e6-11ea-8eed-f1a6945487c0-removebg-preview(1).png" alt="Shareknapper"><!--https://www.npmjs.com/package/ngx-sharebuttons-->
+        </article>
+    </section>
+    <section>
+        <h2>Mobil versjon av lighthouse forklart i tabbellen!</h2>
+            <div class="tabellgrid">
+            <div></div>
+            <div class="tabellbox header"><h2>Før</h2></div>
+            <div class="tabellbox header"><h2>Etter</h2></div>
+            <div class="tabellbox header"><h2>Endringer</h2></div>
+
+            <div class="tabellbox"><h2>Hovednettsiden</h2></div>
+            <div class="tabellbox"><h2 class="ikkevis">Før:</h2>
+                <img class="bildeanalyse" src="bildebank/lighthousemobil1.PNG" alt="Lighthouse mobil bilde hovednettside"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Etter:</h2>
+                <img class="bildeanalyse" src="bildebank/lighthousemobil1.PNG" alt="Lighthouse mobil bilde hovednettside"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Endringer:</h2>
+            <p>Dette er mobil versjonen til hovednettsiden og som du kan det var alt grønt fra før av og det trengs ingen endringer. men som du kan se er den på 95 grunnen til det er at normalize.css ikke blir optimized for mobil.</p></div>
+
+            <div class="tabellbox"><h2>UU vs SEO nettsiden</h2></div>
+            <div class="tabellbox"><h2 class="ikkevis">Før:</h2>
+                <img class="bildeanalyse" src="bildebank/lighthousemobil2.PNG" alt="Lighthouse mobil bilde UU vs SEO før"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Etter:</h2>
+                <img class="bildeanalyse" src="bildebank/lighthousemobil2.PNG" alt="Lighthouse mobil bilde UU vs SEO etter"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Endringer:</h2>
+                <p>Dette er mobil versjonen til Universell utforming og søkemotoroptimalisering nettsiden og som du kan det var alt grønt fra før av og det trengs ingen endringer. men som du kan se er den på 95 grunnen til det er at normalize.css ikke blir optimized for mobil.</p></div>
+
+            <div class="tabellbox"><h2>CMS nettsiden</h2></div>
+            <div class="tabellbox"><h2 class="ikkevis">Før:</h2>
+                <img class="bildeanalyse" src="bildebank/lighthousemobil3.PNG" alt="Lighthouse mobil bilde CMS før"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Etter:</h2>
+                <img class="bildeanalyse" src="bildebank/lighthousemobil3.PNG" alt="Lighthouse mobil bilde CMS etter"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Endringer:</h2>
+                <p>Dette er mobil versjonen til CMS nettsiden og som du kan det var alt grønt fra før av og det trengs ingen endringer. men som du kan se er den på 94 grunnen til det er at normalize.css ikke blir optimized for mobil.</p></div>
+
+            <div class="tabellbox"><h2>Analyse Nettsiden</h2></div>
+            <div class="tabellbox"><h2 class="ikkevis">Før:</h2>
+                <img class="bildeanalyse" src="bildebank/lighthousemobil4.PNG" alt="Lighthouse mobil bilde Analyse før"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Etter:</h2>
+                <img class="bildeanalyse" src="bildebank/lighthousemobil4.PNG" alt="Lighthouse mobil bilde Analyse etter"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Endringer:</h2>
+            <p>Dette er mobil versjonen til Analyse nettsiden og som du kan det var alt grønt fra før av og det trengs ingen endringer. men som du kan se er den på 95 grunnen til det er at normalize.css ikke blir optimized for mobil.</p></div>
+
+            <div class="tabellbox"><h2>Kontakt oss nettsiden</h2></div>
+            <div class="tabellbox"><h2 class="ikkevis">Før:</h2>
+                <img class="bildeanalyse" src="bildebank/nykontaktoss.PNG" alt="Lighthouse mobil bilde hovednettside før"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Etter:</h2>
+                <img class="bildeanalyse" src="bildebank/nykontaktoss.PNG" alt="Lighthouse mobil bilde hovednettside etter"></div>
+            <div class="tabellbox"><h2 class="ikkevis">Endringer:</h2>
+                <p>Dette er mobil versjonen til Kontakt oss nettsiden som du kan se er best practices på 83. grunnen til dette er google API. har lagt til et kart fra google som da svekker nettsiden sin best practise. dette er fiksed ved å gå i inkognito siden da prøver ikke api å komme seg inn, men i ikke inkognito kommer de inn og spør hele tiden derfor svekker det best practises.</p></div>
+    </div>
+    </section>
+    <section>
+        <article>
+            <h2>Tilgjenlighetserklæringen</h2>
+            <p>Jeg har brukt malen fra nettsiden til UU og deretter lagt in hvilke jeg har utført<a href="Tilgjenlighetserklæring/Adyantilgjenglihetserklæring1.pdf"><b>Trykk her for å se malen!</b></a></p>
+            <p>AAA - Kontrast som egentlig er 1.4.6 er ikke i denne malen men den er utført siden den krever en kontrast på 7:1 ratio og jeg har 8:59:1 ratio som er langt over. </p>
+            <p>AAA - Som egentlig er 2.3.2 og ikke er i denne malen har jeg også fullført. Har ingenting som blinker eller som kan skape anfall eller reaksjoner</p>
+            <p>AAA - 2.4.10 Deloverskrifter som forklarer og organiserer innholdet i seksjoner.</p>
+            <img src="bildebank/83341721-ed8f7100-a2e6-11ea-8eed-f1a6945487c0-removebg-preview(1).png" alt="Shareknapper"><!--https://www.npmjs.com/package/ngx-sharebuttons-->
         </article>
     </section>
 </main>
 <footer class="color4">
     <h1><a href="Kontaktoss.html">Kontakt oss</a></h1>
     <ul>
-        <li><a href="mailto:adyana@hiof.no"><b>Epost</b> <i class="fa-solid fa-envelope"></i> </a></li>
-        <li><a href="https://www.instagram.com/adyan321/"><b>Instagram</b> <i class="fa-brands fa-instagram"></i> </a></li>
+        <li><a href="mailto:adyana@hiof.no"><b>Epost</b> <i class="fa-solid fa-envelope"></i></a></li>
+        <li><a href="https://www.instagram.com/adyan321/"><b>Instagram</b> <i class="fa-brands fa-instagram"></i></a></li>
         <li><a href="https://www.facebook.com/adyan.ali.12382"><b>Facebook</b> <i class="fa-brands fa-facebook"></i></a></li>
     </ul>
 </footer>

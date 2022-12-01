@@ -52,6 +52,18 @@ header{
      background-repeat: no-repeat;
      background-size: cover;
 } 
+header h1{
+    display: flex;
+    justify-content: center;
+    font-family: 'Anton', sans-serif;;
+    font-size: 300%;color: white;
+    margin-top: 10%;
+    padding: 1%;
+    background-color: rgba(59, 78, 131, 0.575);
+    box-shadow: 5px 5px 5px rgb(0, 0, 0);
+    border-radius: 10px;
+  
+}
 
 /* UNDER LIGGER ALT SOM HAR MED NAV Å GJØRE */
      
@@ -72,7 +84,7 @@ nav ul li a:hover{
 nav ul{
     display: flex;
     justify-content: space-around;
-    margin-top: 10rem;
+    margin-top: 12rem;
 }
 
 nav ul li{
@@ -107,19 +119,6 @@ nav ul li{
     border-radius: 10px;
 }
 
-header h1{
-    display: flex;
-    justify-content: center;
-    font-family: 'Anton', sans-serif;;
-    font-size: 300%;color: white;
-    margin-top: 10%;
-    padding: 1%;
-    background-color: rgba(59, 78, 131, 0.575);
-    box-shadow: 5px 5px 5px rgb(0, 0, 0);
-    border-radius: 10px;
-  
-}
-
 /* UNDER LIGGER ALT SOM HAR MED GRIDDEN TIL NETTSIDEN Å GJØRE */
 
 #grid-container{
@@ -140,9 +139,8 @@ main{
 
 
 main section{
-    /* display: flex; */
     flex-wrap: wrap;
-    gap: 5rem;
+    gap: 4rem;
 }
 
 main section a{
@@ -162,7 +160,7 @@ main section article{
 }
 
 main section article:hover{
-    scale: 102%;
+    scale: 101.5%;
     transition: .2s;
 }
 
@@ -177,14 +175,16 @@ main section article p{
 
 .section1{
     display: flex;
-    margin-top: 2%;
+    margin-left: 25%;
+    margin-bottom: 2%;
     flex-wrap: wrap;
     justify-content: center;
+    width: 50%;
+    background-color: lightcoral;
+    box-shadow: 5px 5px 5px red;
+    border-radius: 1rem;
 }
 
-.information{
-    width: 45%;
-}
 
 .section2{
     display: flex;
@@ -271,6 +271,11 @@ main section article img{
 }
 
 
+#kart{
+    margin-left: 29%;
+    max-width: 50%;
+}
+
 /* UNDER LIGGER KONTAKT SKJEMA CSS */
 
 #skjema{
@@ -281,12 +286,18 @@ main section article img{
 }
 
 #skjema .box{
-    margin: 2rem;
+    margin: 1rem;
+    
 }
 
 #skjema input{
     height: 5rem;
-    width: 50rem;
+    width: 120%;
+    
+}
+
+.bildeanalyse{
+    max-width: 100%;
 }
 
 
@@ -341,7 +352,7 @@ footer h1 a:hover{
 /* UNDER LIGGER ALT SOM HAR MED TABELLEN Å GJØRE */
 
 
-#tabellgrid{                              /*https://www.w3schools.com/css/css_grid.asp brukt for å lage tabellen med grid*/
+.tabellgrid{                              /*https://www.w3schools.com/css/css_grid.asp brukt å hjelpe til å lage tabellen med grid*/
     display: grid;      
     grid-template-columns: 0.5fr 0.5fr 0.5fr 0.5fr;
 }
@@ -355,15 +366,13 @@ footer h1 a:hover{
     background-color: white;
     padding: 60px;
     border: 2px solid black;
-    display: flex;
     justify-content: space-around;
-    flex-wrap: wrap;
 }
 
 /* UNDER LIGGER ALT SOM HAR MED MEDIA QUIERES Å GJØRE FOR Å GJØRE TABELLEN RESPONSIV */
 
 @media (max-width: 768px){
-    #tabellgrid{
+    .tabellgrid{
         grid-template-columns: 1fr;
     }
     .header{
