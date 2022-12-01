@@ -265,6 +265,12 @@ main section article h1{
     text-decoration: underline;
 }
 
+main section article img{
+   margin-left: 34%;
+   width: 30%;
+}
+
+
 /* UNDER LIGGER KONTAKT SKJEMA CSS */
 
 #skjema{
@@ -321,6 +327,16 @@ footer ul li a:hover{
     color: blue;
 }
 
+footer h1 a{
+    text-decoration: none;
+    list-style: none;
+    color: black;
+}
+
+footer h1 a:hover{
+    text-decoration: underline;
+    color: blue;
+}
 
 /* UNDER LIGGER ALT SOM HAR MED TABELLEN Å GJØRE */
 
