@@ -48,7 +48,7 @@ header{
 }
 
 header{
-     background-image: url("bildebank/teahub.io-web-development-wallpaper-880026\ \(1\).webp"); 
+     background-image: url("bildebank/teahub.io-web-development-wallpaper-880026.webp"); /*https://www.teahub.io/viewwp/bTTRoo_web-design-images-hd/ Bildet er hentet fra denne nettsiden*/
      background-repeat: no-repeat;
      background-size: cover;
 } 
@@ -180,7 +180,7 @@ main section article p{
     flex-wrap: wrap;
     justify-content: center;
     width: 50%;
-    background-color: lightcoral;
+    background-color: salmon;
     box-shadow: 5px 5px 5px red;
     border-radius: 1rem;
 }
@@ -268,12 +268,17 @@ main section article h1{
 main section article img{
    margin-left: 34%;
    width: 30%;
+   border-radius: 10px;
 }
 
 
 #kart{
     margin-left: 29%;
     max-width: 50%;
+}
+
+#marginknapp{
+    margin-left: 23%;
 }
 
 /* UNDER LIGGER KONTAKT SKJEMA CSS */
